@@ -169,10 +169,16 @@ aside {
     min-width: 20%;
 }
 
- .project-bottom {
+ .tech-used {
+     text-align: center;
      display: flex;
-     flex-direction: row;
      justify-content: space-around;
+     flex-wrap: wrap;
+ }
+
+ .tech-used li {
+    padding: 10px;
+    min-width: 20%;
  }
 
 /* ------------> pics and shapes <-------------- */
