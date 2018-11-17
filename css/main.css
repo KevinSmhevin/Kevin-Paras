@@ -43,7 +43,7 @@ body {
 
 aside {
     flex: 1;
-    background-image: url('pics/me.jpg');
+    background-image: url('../pics/me.jpg');
     background-size: cover;
     background-position: center center; 
     border-radius: 5px;
