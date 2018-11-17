@@ -137,7 +137,7 @@ aside {
     display: block;
     flex: 1;
     width: 25%;
-    min-height: 65vh;
+    min-height: 85vh;
     border: 0.75px solid #DDDDDD;
     padding: 10px;
 }
@@ -193,6 +193,17 @@ hr {
     margin-bottom: 32px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.project-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2.5px; 
+    max-width: 400px;
+    max-height: 400px;
+    border: 5px solid white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
 
@@ -380,6 +391,13 @@ input, button, submit {
     }
      .project-bottom {
         flex-direction: column;
+    }
+
+/* -------> pictures <-------- */
+
+    .project-image {
+        max-width: 200px;
+        max-height: 200px;
     }
 
 /* ---------> text <----------- */
