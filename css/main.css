@@ -433,3 +433,80 @@ input, button, submit {
     }
 
  }
+
+ /* -----------> Ipad <------------- */
+
+ @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+     
+   /* ------> main <------ */
+    body {
+        font-size: 10px;
+    }
+/* ------> containers <-------- */
+    aside {
+        flex: 0;
+    }
+
+    .main-container {
+        flex-direction: column;
+    }
+
+    .body-box {
+        width: 100%;
+    }
+
+    .box {
+        min-height: 15vh;
+        margin: 5px;
+    }
+
+    .projects-body-section {
+        flex-direction: column;
+    }
+
+    .projects-body-box {
+        width: 100%;
+    }
+    .project-bottom {
+        flex-direction: column;
+    }
+
+/* -------> pictures <-------- */
+
+    .project-image {
+        max-width: 350px;
+        max-height: 350px;
+    }
+
+/* ---------> text <----------- */
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 26px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 16px;
+    }
+
+    h5 {
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 12px;
+    }
+
+/* ----------> pics <----------- */
+
+    .profile-pic {
+        display: block;
+    }   
+}
