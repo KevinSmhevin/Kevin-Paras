@@ -436,7 +436,8 @@ input, button, submit {
 
  /* -----------> Ipad <------------- */
 
- @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+
+ @media only screen and (max-width: 1366px) {
      
    /* ------> main <------ */
     body {
@@ -466,6 +467,7 @@ input, button, submit {
 
     .projects-body-box {
         width: 100%;
+        max-height: 25vh;
     }
     .project-bottom {
         flex-direction: column;
@@ -474,34 +476,34 @@ input, button, submit {
 /* -------> pictures <-------- */
 
     .project-image {
-        max-width: 350px;
-        max-height: 350px;
+        max-width: 400px;
+        max-height: 400px;
     }
 
 /* ---------> text <----------- */
 
     h1 {
-        font-size: 40px;
+        font-size: 50px;
     }
 
     h2 {
-        font-size: 26px;
+        font-size: 32px;
     }
 
     h3 {
-        font-size: 20px;
+        font-size: 24px;
     }
 
     h4 {
-        font-size: 16px;
+        font-size: 18px;
     }
 
     h5 {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     p {
-        font-size: 12px;
+        font-size: 14px;
     }
 
 /* ----------> pics <----------- */
