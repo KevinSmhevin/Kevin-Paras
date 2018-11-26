@@ -1,22 +1,19 @@
 function watchAboutMeModal() {
-    $('.about-me').click(function(e) {
-        e.preventDefault()
+    $('.about-me').click(function() {
         $('.overlay').show()
         $('.about-me-modal').show()
     });
 }
 
 function watchProjectsModal() {
-    $('.projects').click(function(e) {
-        e.preventDefault()
+    $('.projects').click(function() {
         $('.overlay').show()
         $('.projects-modal').show()
     });
 }
 
 function watchContactMeModal() {
-    $('.contact-me').click(function(e) {
-        e.preventDefault()
+    $('.contact-me').click(function() {
         $('.overlay').show()
         $('.contact-me-modal').show()
     });
