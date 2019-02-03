@@ -125,35 +125,18 @@ aside {
 
 .projects-body-section {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
     justify-content: space-around;
 }
 
-
-.project-body-box {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-}
-
-.project-top {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 50%;
-}
-
-.project-bottom {
-    width: 50%;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    flex-direction: column;
-    border: 1px solid #DDDDDD;
+.projects-body-box {
+    margin: auto 5px;
+    flex: 1;
+    max-width: 30%;
+    border: 0.75px solid #DDDDDD;
+    padding: 10px;
 }
 
 .body-box {
@@ -222,27 +205,19 @@ aside {
 
 hr {
     border: solid 0.75px #DDDDDD;
-    /* margin-top: 32px;
-    margin-bottom: 32px; */
+    margin-top: 32px;
+    margin-bottom: 32px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.image-link {
-    display: flex;
-    justify-content: center;
-    margin: 0;
-    padding: 0;
-}
-
 .project-image {
-
-    /* display: block; */
-    /* margin-left: auto;
-    margin-right: auto; */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 2.5px; 
-    /* max-width: 300px;
-    max-height: 400px; */
+    max-width: 300px;
+    max-height: 400px;
     border: 5px solid white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 10px 0 rgba(0, 0, 0, 0.19);
 }
@@ -306,10 +281,6 @@ li, p {
    font-size: 15px;
 }
 
-/* .project-title {
-    text-align: center;
-} */
-
 
 /* -------------> buttons <------------- */
 
@@ -334,49 +305,8 @@ input, button, submit {
     border-radius: 2.5px;
     text-decoration: none;
     padding: 7px;
-    margin: 10px;
-    text-align:center;
 }
 
-.prev-button, .next-button {
-    padding: 10px 25px;
-}
-
-.link-button:hover {
-    cursor: pointer;
-}
-
-.controls-container {
-    display: flex;
-    justify-content: space-around;
-}
-
-.nav-container {
-    display: flex;
-    justify-content: center;
-}
-
-.tns-nav {
-    width: 9px;
-    height: 9px;
-    padding: 0;
-    margin: 0 5px;
-    border-radius: 50%;
-    background: #ddd;
-    border: 0;
-}
-
-.tns-nav:focus {
-    background-color: #999;
-}
-
-.tns-nav > .tns-nav-active {
-    background: #999;
-}
-
-.tns-nav-active {
-    background: #999;
-}
 
 /* ----------------> colors <------------------ */
 
@@ -565,32 +495,8 @@ input, button, submit {
     margin-bottom: 10px;
        max-width: 100%;
     }
-
-    .project-body-box {
-        flex-direction: column;
-    }
-
-    .project-top {
-        width: 100%;
-    }
-
      .project-bottom {
-         width: 100%;
         flex-direction: column;
-    }
-
-    .image-link {
-    display: block; 
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 2.5px; 
-    max-width: 300px;
-    max-height: 400px;
-    }
-
-    .project-demo-section {
-        display: flex;
-        justify-content: center;
     }
 
 /* -------> pictures <-------- */
@@ -719,4 +625,4 @@ input, button, submit {
     .profile-pic {
         display: block;
     }   
-}
+ }
