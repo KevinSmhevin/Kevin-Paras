@@ -585,8 +585,8 @@ input, button, submit {
     margin-left: auto;
     margin-right: auto;
     border-radius: 2.5px; 
-    max-width: 300px;
-    max-height: 400px;
+    /* max-width: 300px;
+    max-height: 400px; */
     }
 
     .project-demo-section {
