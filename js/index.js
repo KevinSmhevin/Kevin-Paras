@@ -19,6 +19,7 @@ function watchContactMeModal() {
     });
 }
 
+            
 function loadPage() {
     $('.overlay').hide();
     $('.about-me-modal').hide();
