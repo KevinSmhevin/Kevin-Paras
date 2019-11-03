@@ -120,6 +120,7 @@ aside {
 
 .modal {
     padding: 10px;
+    border-radius: 5px;
     text-align: left;
 }
 
@@ -155,7 +156,7 @@ aside {
     justify-content: center;
     flex-direction: column;
     padding: 15px;
-    border: 1px solid #DDDDDD;
+    border: 1px outset #DDDDDD;
 }
 
 .body-box {
