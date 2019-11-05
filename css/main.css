@@ -47,6 +47,7 @@ aside {
     background-size: cover;
     background-position: center center; 
     border-radius: 5px;
+    margin: 15px 0px 15px 0px;
 }
 
 .main-container {
