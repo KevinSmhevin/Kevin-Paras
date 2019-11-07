@@ -178,6 +178,10 @@ aside {
     
 }
 
+.about-me:hover, .projects:hover, .contact-me:hover, .project-image:hover {
+    border: 1px outset steelblue;
+}
+
 .title-section, .body-section {
     display: none;
 }
